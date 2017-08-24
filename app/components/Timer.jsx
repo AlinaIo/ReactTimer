@@ -1,6 +1,6 @@
 var React = require('react');
 
-var Timer = (props) => {
+var Timer = () => {
         return (
             <div>
                 <h1>Timer Component</h1>

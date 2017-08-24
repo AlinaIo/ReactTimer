@@ -1,6 +1,6 @@
 var React = require('react');
 
-var Controls = (props) => {
+var Controls = () => {
     return (
         <h1>Controls component</h1>
     )

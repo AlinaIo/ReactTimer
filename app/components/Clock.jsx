@@ -1,6 +1,6 @@
 var React = require('react');
 
-var Clock = (props) => {
+var Clock = () => {
         return (
             <div>
                 <h1>Clock Component</h1>
