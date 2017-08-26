@@ -4,6 +4,7 @@ var {Route, Router, IndexRoute, hashHistory} = require('react-router');
 var Main = require('Main');
 var Timer = require('Timer');
 var Countdown = require('Countdown');
+var Carousel = require('Carousel');
 
 // Load foundation
 require('style!css!foundation-sites/dist/foundation.min.css');
@@ -17,6 +18,7 @@ ReactDOM.render(
     <Route path="/" component={Main}>
       <IndexRoute component={Timer}/>
       <Route path="countdown" component={Countdown}/>
+      <Route path="orbit" component={Carousel}/>
     </Route>
   </Router>,
   document.getElementById('app')

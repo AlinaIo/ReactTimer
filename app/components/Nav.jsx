@@ -13,6 +13,9 @@ var Nav = () => {
                         <li>
                             <Link to="/countdown" activeClassName="active-link">Countdown</Link>
                         </li>
+                        <li>
+                            <Link to="/orbit" activeClassName="active-link">Carousel</Link>
+                        </li>
                     </ul>
                 </div>
                 <div className="top-bar-right">
